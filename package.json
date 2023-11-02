@@ -1,0 +1,34 @@
+{
+  "name": "api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.13.5",
+    "@strapi/plugin-users-permissions": "4.13.5",
+    "@strapi/strapi": "4.13.5",
+    "@stripe/react-stripe-js": "^2.3.0",
+    "@stripe/stripe-js": "^2.1.5",
+    "express": "^4.18.2",
+    "mysql": "2.18.1",
+    
+    "stripe": "^13.9.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "22cb9e0f-784b-4113-b2c6-ca4dcfdd1b49"
+  },
+  "engines": {
+    "node": ">=16.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
